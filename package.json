@@ -49,7 +49,7 @@
     "node": ">=5.0.0"
   },
   "peerDependencies": {
-        "fine-uploader": ">=5.14.2 <6.0.0"
+        "fine-uploader": "git+ssh://git@github.com/csdisco/fine-uploader#5.16.2"
   },
   "scripts": {
     "build": "rm -rf lib && mkdir -p lib && cp -pR src/ lib && babel lib --out-dir lib",
